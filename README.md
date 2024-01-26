@@ -3,7 +3,7 @@
 > Code Challenge for Rexx Systems read JSON file and data insert in Database. Then read data from Database and display data based on some filters.
 
 ## Developer Guide
-    This Project is based on Core PHP and run via web server.
+    This Project is based on Core PHP.
 
 ## Project Environments Versions
 Below are versions I have used to complete this Task.
@@ -18,6 +18,8 @@ git clone https://github.com/Razziaftab/rexx-systems-code-challenge.git
 cd rexx-code-challenge
 composer install
 composer dump-autoload
+
+Import Database using given SQL file in Repo.
 
 - Change the database driver, host, username, password and name according to your system in "config.php" file.
 ```
